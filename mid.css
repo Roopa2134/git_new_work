@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1250px) {
+
+	body,
+	html {
+		background: red;
+		width: min-content;
+	}
+
+	.side-link-nav {
+		display: none;
+	}
+
+	.nav-button {
+		display: block;
+		font-size: 50px;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+
+	body,
+	html {
+		/* background: bisque; */
+		width: min-content;
+	}
+
+	#section_2 .section_2_main_div-flex {
+		display: block;
+		width: 500px;
+		margin: auto;
+		/* text-align: -webkit-center; */
+	}
+
+	.section_2_main_div-flex ._2main-right-part .fast-part_txt {
+		width: fit-content;
+		font-size: 30px;
+	}
+
+	.section_2_main_div-flex ._2main-right-part .svg-side-txt svg {
+		font-size: 30px;
+	}
+}
